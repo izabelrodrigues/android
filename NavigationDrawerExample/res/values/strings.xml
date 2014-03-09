@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NavigationDrawerExample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Fechar navigation drawer</string>
+
+    <string-array name="itens_menu_string">
+        <item>Opção 01</item>
+        <item>Opção 02</item>
+        <item>Opção 03</item>
+        <item>Opção 04</item>
+    </string-array>
+
+</resources>
