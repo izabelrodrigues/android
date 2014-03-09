@@ -1,0 +1,23 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_CDC9C9" >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_CDC9C9" />
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/red_CD5C5C"
+        android:choiceMode="singleChoice"
+        android:divider="@color/white_FFE1FF"
+        android:dividerHeight="2dp" />
+
+</android.support.v4.widget.DrawerLayout>
